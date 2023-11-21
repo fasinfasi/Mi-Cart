@@ -166,3 +166,88 @@
 .btn.active{
     background-color: #553ff0;
 }
+
+@media only screen and (max-width:600px){
+    
+    .container{
+        display: flex;
+        position: relative;
+        width: 80% 20px 10px;
+        height: 100%;
+    }
+    .product {
+        display: block;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 150px;
+    }
+    .gallery{
+        width: 100%;
+        height: 500px;
+
+    }
+    .gallery img{
+        position: absolute;
+        height: 480px;
+        bottom: 0;
+    }
+    .details h1{
+        position: relative;
+        font-size: 2.5em;
+        font-family: Verdana, sans-serif;
+        color: #d14141;
+        text-align: left;
+        flex-direction: column;
+    }
+    .details h2{
+            color: #484848;
+            font-weight: 900;
+            display: flex;
+        }
+    
+    .details h3{
+        display: flex;
+        font-size: 25px;
+    }
+    .brand-info{
+        color: #030303;
+        display: block;
+        position: relative;
+        font-size: 1.8em;
+        margin-top: 3px;
+        padding-top: 10px;
+    }
+    .selector{
+        margin-top: 70px;
+
+    }
+    .selector p{
+        color: rgba(0, 0, 0, 0.562);
+        font-size: 1.8em;
+        font-weight: bold;
+    }
+    .span-select{
+        color: #1111117c;
+        font-size: 1.6em;
+        font-weight: bold;
+    }
+    .color-select span{
+        padding: 12px;
+        margin-left: 20px;
+    }
+    .quantity-select input{
+        margin-left: 50px;
+        width: fit-content;
+        height: 40px;
+        font-size: 1.7em;
+    }
+    .buy-btn button{
+        height: 60px;
+        font-size: 1.9em;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    
+} 
+
